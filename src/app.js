@@ -5,6 +5,10 @@ Vue.use(vueResource);
 
 var vm = new Vue({
     el: 'body',
+    data: {
+        msg: "hello",
+        dom: "body"
+    },
     components: {
         app: App
     }
